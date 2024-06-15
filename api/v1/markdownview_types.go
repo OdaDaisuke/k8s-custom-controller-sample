@@ -55,6 +55,8 @@ type MarkdownViewStatus struct {
 	Healthy   string `json:"health,omitempty"`
 }
 
+const MarkdownViewStatusHealthy = "healthy"
+
 // +kubebuilder:object:root=true
 // +kubebuilder:subresource:status
 
