@@ -1,0 +1,9 @@
+apiVersion: view.daisukeoda.github.io/v1
+kind: MarkdownView
+metadata:
+  labels:
+    app.kubernetes.io/name: md-view
+    app.kubernetes.io/managed-by: kustomize
+  name: markdownview-sample
+spec:
+  # TODO(user): Add fields here

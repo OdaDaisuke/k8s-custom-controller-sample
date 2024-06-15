@@ -7,4 +7,18 @@ layout:
 - go.kubebuilder.io/v4
 projectName: md-view
 repo: github.com/OdaDaisuke/k8s_custom_controller_sample
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: daisukeoda.github.io
+  group: view
+  kind: MarkdownView
+  path: github.com/OdaDaisuke/k8s_custom_controller_sample/api/v1
+  version: v1
+  webhooks:
+    defaulting: true
+    validation: true
+    webhookVersion: v1
 version: "3"
