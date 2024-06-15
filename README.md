@@ -1,8 +1,10 @@
 # md-view
-// TODO(user): Add simple overview of use/purpose
+
+k8sのカスタムコントローラ実装練習のリポジトリ。
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+
+kind & kubebuilderを利用。
 
 ## Getting Started
 
@@ -11,6 +13,7 @@
 - docker version 17.03+.
 - kubectl version v1.11.3+.
 - Access to a Kubernetes v1.11.3+ cluster.
+- cert-manager ( kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/latest/download/cert-manager.yaml )
 
 ### To Deploy on the cluster
 **Build and push your image to the location specified by `IMG`:**
